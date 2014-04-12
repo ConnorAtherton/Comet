@@ -1,5 +1,5 @@
 
-Usage: comet [options] [command]
+Usage: comet [command] [options]
 
 Description:
 
@@ -7,8 +7,9 @@ Description:
 
 Commands:
 
-    $ create <name>            create a new comet application
+    $ create [name]            create a new comet application
 
 Options:
 
-    All options here.
+    --v, --verbose             Enable logging of all messages
+    --s, --silent              Suppress all logging

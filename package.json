@@ -2,7 +2,6 @@
   "name": "Comet",
   "version": "0.0.0",
   "description": "A simple MVC node framework",
-  "main": "comet.js",
   "preferGlobal": "true",
   "directories": {
     "bin": "./bin"
@@ -33,6 +32,7 @@
     "chalk": "~0.4.0",
     "colors": "~0.6.2",
     "optimist": "~0.6.1",
-    "minimist": "0.0.8"
+    "minimist": "0.0.8",
+    "utils-merge": "~1.0.0"
   }
 }

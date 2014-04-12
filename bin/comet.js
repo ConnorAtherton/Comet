@@ -6,6 +6,6 @@ var chalk = require('chalk'),
 
 // provide clean output on exceptions rather than dumping a stack trace
 process.on('uncaughtException', function(err){
-	console.log(chalk.red(err));
+  console.log(chalk.red(err));
   process.exit(1);
 });
