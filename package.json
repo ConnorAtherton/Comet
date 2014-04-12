@@ -1,0 +1,38 @@
+{
+  "name": "Comet",
+  "version": "0.0.0",
+  "description": "A simple MVC node framework",
+  "main": "comet.js",
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "comet": "./bin/comet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ConnorAtherton/Comet"
+  },
+  "keywords": [
+    "MVC",
+    "framework"
+  ],
+  "author": "Connor Atherton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConnorAtherton/Comet/issues"
+  },
+  "homepage": "https://github.com/ConnorAtherton/Comet",
+  "dependencies": {
+    "commander": "~2.2.0",
+    "gulp": "~3.6.0",
+    "chalk": "~0.4.0",
+    "colors": "~0.6.2",
+    "optimist": "~0.6.1",
+    "minimist": "0.0.8"
+  }
+}

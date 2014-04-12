@@ -1,0 +1,14 @@
+
+Usage: comet [options] [command]
+
+Description:
+
+    Comet CLI.
+
+Commands:
+
+    $ create <name>            create a new comet application
+
+Options:
+
+    All options here.
