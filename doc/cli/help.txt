@@ -7,9 +7,9 @@ Description:
 
 Commands:
 
-    $ create [name]            create a new comet application
+    $ create [name]           Create a new comet application
 
 Options:
 
-    --v, --verbose             Enable logging of all messages
-    --s, --silent              Suppress all logging
+    -v, --verbose             Enable logging of all messages
+    -s, --silent              Suppress all logging
